@@ -38,6 +38,48 @@
 
 /* banner */
 .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    flex-direction: row;
+ }
     
+.banner-left{
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgba(58, 58, 58, 1);
+    margin: 10px 0px;
 }
- 
+.banner-description{
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 1);
+}
+ .btn-primary{
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: rgba(224, 44, 109, 1.00);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+ }
+ .banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+ }
+.circle{
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+.camera{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
