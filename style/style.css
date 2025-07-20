@@ -1,0 +1,43 @@
+.bg-color{
+    background-color: white;
+}
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+
+/* nav style */
+.navbar{
+ 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    max-width: 450px;
+    min-height: 53px;
+}
+.links{
+    list-style: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 30px;
+    max-width: 463px;
+    min-height: 63px;
+   
+}
+.item{
+    margin: 10px;
+}
+
+
+/* banner */
+.banner{
+    
+}
+ 
