@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 20px;
+    padding: 50px 20px;
     flex-direction: row;
  }
     
@@ -68,18 +68,43 @@
  }
  .banner-img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     width: 50%;
+    
  }
 .circle{
     position: absolute;
     width: 60%;
-    z-index: 1;
+    left: 50%;
+   
 }
 .camera{
     position: absolute;
     width: 40%;
-    z-index: 2;
+    left: 60%;
+  
 }
+
+/* main */
+.our-sponsors{
+    padding: 40px 0;
+    text-align: center;
+    max-width: 1440px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ width: fit-content;
+  margin: 0 auto;
+   padding: 20px 40px; 
+ 
+
+    }
+.sponsor-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+ 
+/* popular collection */
+
