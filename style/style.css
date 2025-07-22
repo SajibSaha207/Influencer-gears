@@ -1,6 +1,13 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+     
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
 .bg-color{
     background-color: white;
 }
@@ -212,3 +219,24 @@ font-size: 1rem;
     color: white;
     border: none;
  }
+
+ .footer{
+padding: 50px; 
+width: 100%;
+background-color: #0a0826;
+color: white;
+text-align: center;
+box-sizing: border-box;
+
+}
+.footer-description{
+    margin-top: -10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+
+}
+.icon{
+    margin-top: 10px;
+}
+ 
+ 
